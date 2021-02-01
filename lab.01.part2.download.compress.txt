@@ -14,46 +14,46 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 1. Write the command that you would use to change to the root directory.
 ----------
-
+cd
 
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
-
+cd ~
 
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
-
-
+cd Desktop
+(From Home Directory otherwise start this step with cd ~) 
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
-
+ mkdir -p Desktop/NewDirectory
 
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
-
+cd ../..
 
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
-
+cd -
 
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
-
+ls -al Desktop
 
 
 ==========
@@ -74,7 +74,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 
@@ -85,7 +85,7 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
-
+whoa
 
 
 ==========
@@ -95,7 +95,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+No output
 
 
 ==========
@@ -103,7 +103,7 @@ Copy and paste the output below.
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
+No output
 
 
 ==========
@@ -113,8 +113,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -124,7 +123,7 @@ $ echo *
 
 What happens?
 ----------
-
+It prints everything within my home folder.
 
 
 
@@ -133,7 +132,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -148,9 +147,9 @@ $ curl -o mygoogle.html www.google.com
 
 Now copy and paste the output below.
 ----------
-
-
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 13828    0 13828    0     0   123k      0 --:--:-- --:--:-- --:--:--  123k
 
 
 
