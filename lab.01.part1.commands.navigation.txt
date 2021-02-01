@@ -151,17 +151,18 @@ Follow the instructions line-by-line.
 ==========
 
 ==========
-12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
+12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
-
+mkdir mtech1003
 
 
 
 
 
 ==========
-13. Change your directory so that you're in mtec1002. What command did you use?
+13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
+Kevins-MacBook-Air:mtec1003 striderster$ 
 
 
 
@@ -173,13 +174,13 @@ Follow the instructions line-by-line.
 
 $ pwd
 
-Check that the output ends with mtec1002 (something like this: /Users/joe/mtec1002).
+Check that the output ends with mtec1003 (something like this: /Users/joe/mtec1003).
 
 If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/striderster/mtec1003
 
 
 
@@ -193,7 +194,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals
 
 
 
@@ -207,7 +208,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals food
 
 
 
@@ -221,9 +222,9 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-
-
+animals	foo	food
+(The -p flag is recursive. Recursively Nest one folder inside another)
+Nest = place
 
 
 
@@ -235,7 +236,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/striderster/mtec1003/foo/bar/baz/qux
 
 
 
@@ -249,7 +250,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/striderster/mtec1003/foo/bar
 
 
 
@@ -263,7 +264,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/striderster/mtec1003/foo/bar/baz/qux
 
 
 
@@ -277,7 +278,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/striderster/mtec1003
 
 
 
@@ -292,8 +293,9 @@ $ ls -l
 
 Copy and paste the first 3 lines from the output into the space below.
 ----------
-
-
+total 0
+drwxr-xr-x  3 striderster  staff  96 Feb  1 16:51 foo
+drwxr-xr-x  2 striderster  staff  64 Feb  1 16:50 food
 
 
 
@@ -306,7 +308,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/striderster
 
 
 
@@ -320,7 +322,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 
@@ -334,21 +336,21 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
+/Volumes
 
-
-
+(/unknown_folder does not exist)
 
 
 
 ==========
 26. Type:
 
-$ cd ~/mtec1002
+$ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/striderster/mtec1003
 
 
 
@@ -361,14 +363,14 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+Kevins-MacBook-Air.local
 
 
 
 
 
 ==========
-28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+28. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
 
@@ -401,7 +403,7 @@ lemon
 
 Write the one command you used below:
 ----------
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 
