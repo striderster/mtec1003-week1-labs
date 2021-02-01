@@ -414,7 +414,7 @@ mkdir -p pineapple/orange/strawberry/lemon
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 
@@ -425,7 +425,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x   2 striderster  staff   64 Feb  1 17:15 aardvark
 
 
 
@@ -440,8 +440,8 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
-
+mkdir -p foo/bar/baz
+(mkdir -p foo/bar/baz/qux is already run so it will display foo/bar/baz/qux)
 
 
 
@@ -451,7 +451,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 
@@ -462,7 +462,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 
 
@@ -471,7 +471,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 
@@ -480,7 +480,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+ls
 
 
 
@@ -489,7 +489,7 @@ What command did you use?
 ==========
 38. What flag do I pass to ls to print out all files?
 ----------
-
+ls -a
 
 
 
@@ -498,7 +498,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+cd ~
 
 
 
@@ -507,8 +507,8 @@ What command did you use?
 ==========
 40. What's a pathname?
 ----------
-
-
+A pathname is all the paths it takes to get a certain folder. The path is a directory that brings you to another directory. Example: Users/striderster/mtech1003
+The mtec1003 is the folder but Users and striderster is the folders that contained mtech1003.
 
 
 
@@ -516,7 +516,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A directory is a folder or a container.
 
 
 
@@ -525,3 +525,7 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Users/striderster/Downloads
+
+
+
