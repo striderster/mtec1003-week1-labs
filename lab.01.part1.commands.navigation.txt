@@ -16,7 +16,9 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Applications	Downloads	Music		Public
+Desktop		Library		MyFirstGame	Steam
+Documents	Movies		Pictures	VirtualBox VMs
 
 
 
@@ -29,8 +31,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
-
+total 69232
+-rw-r--r--@ 1 striderster  staff   712690 Apr  3  2020  Midterm_Data_Dictionary_Huang.numbers
 
 
 
@@ -42,7 +44,10 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+.
+..
+.DS_Store
+.localized
 
 
 
@@ -55,7 +60,7 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 
 
