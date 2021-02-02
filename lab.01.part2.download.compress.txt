@@ -159,7 +159,7 @@ Now copy and paste the output below.
 
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
-
+ls
 
 
 
@@ -170,7 +170,7 @@ Write the command you used to determine your directory. Also, copy and paste the
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ==========
