@@ -187,14 +187,21 @@ Then, use ls to verify that it downloaded.
 Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
+wget http://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/labs/01/my-flashcards.zip
+ --2021-02-04 14:06:59--  http://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/labs/01/my-flashcards.zip
+Resolving einbahnstrasse.github.io (einbahnstrasse.github.io)... 185.199.110.153, 185.199.111.153, 185.199.108.153, ...
+Connecting to einbahnstrasse.github.io (einbahnstrasse.github.io)|185.199.110.153|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/labs/01/my-flashcards.zip [following]
+--2021-02-04 14:06:59--  https://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/labs/01/my-flashcards.zip
+Connecting to einbahnstrasse.github.io (einbahnstrasse.github.io)|185.199.110.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2120 (2.1K) [application/zip]
+Saving to: ‘my-flashcards.zip’
 
+my-flashcards.zip   100%[===================>]   2.07K  --.-KB/s    in 0.001s  
 
-
-
-
-
-
-
+2021-02-04 14:06:59 (2.14 MB/s) - ‘my-flashcards.zip’ saved [2120/2120]
 
 ==========
 12. Go back up to your home directory.
@@ -203,8 +210,16 @@ List the contents of your home directory to prove that the directory was created
 
 Copy and paste the output below.
 ----------
-
-
+.			.dropbox		Movies
+..			.idlerc			Music
+.CFUserTextEncoding	.mono			Pictures
+.DS_Store		Applications		Public
+.Trash			Creative Cloud Files	Steam
+.bash_history		Desktop			VirtualBox VMs
+.bash_profile		Documents		mtec1003
+.bash_sessions		Downloads		my-flashcards.zip
+.config			GameEngine		mygoogle.html
+.cups			Library			stuff
 
 
 ==========
@@ -218,7 +233,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+.		..		hello.txt
 
 
 ==========
@@ -231,9 +246,17 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
-
-
+.			.idlerc			Pictures
+..			.mono			Public
+.CFUserTextEncoding	Applications		Steam
+.DS_Store		Creative Cloud Files	VirtualBox VMs
+.Trash			Desktop			mtec1003
+.bash_history		Documents		my-flashcards.zip
+.bash_profile		Downloads		mygoogle.html
+.bash_sessions		GameEngine		stuff
+.config			Library			stuff.tar
+.cups			Movies
+.dropbox		Music
 
 ==========
 15. Go up one directory back into your home directory.
@@ -243,7 +266,8 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+a stuff
+a stuff/hello.txt
 
 
 
@@ -257,9 +281,17 @@ gzip stuff.tar
 List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
-
-
-
+.			.idlerc			Pictures
+..			.mono			Public
+.CFUserTextEncoding	Applications		Steam
+.DS_Store		Creative Cloud Files	VirtualBox VMs
+.Trash			Desktop			mtec1003
+.bash_history		Documents		my-flashcards.zip
+.bash_profile		Downloads		mygoogle.html
+.bash_sessions		GameEngine		stuff
+.config			Library			stuff.tar.gz
+.cups			Movies
+.dropbox		Music
 
 
 ==========
@@ -269,3 +301,16 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+.			.idlerc			Pictures
+..			.mono			Public
+.CFUserTextEncoding	Applications		Steam
+.DS_Store		Creative Cloud Files	VirtualBox VMs
+.Trash			Desktop			mtec1003
+.bash_history		Documents		my-flashcards.zip
+.bash_profile		Downloads		mygoogle.html
+.bash_sessions		GameEngine		stuff
+.config			Library			stuff.tar.gz
+.cups			Movies
+.dropbox		Music
+
+
